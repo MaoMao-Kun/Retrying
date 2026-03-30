@@ -19,8 +19,3 @@ Retrying is a third-party extension for SillyTavern that automatically retries s
 - Configurable retry delay
 - Optional notifications
 - Settings panel in the SillyTavern extensions manager
-
-## Notes
-
-- This repository already contains the built plugin files required by SillyTavern.
-- End users do not need to run `npm install` or build anything manually.
