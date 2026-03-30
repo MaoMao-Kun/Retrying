@@ -1,26 +1,5 @@
-# Retrying
+# Retrying Sources
 
-Retrying is a third-party extension for SillyTavern that automatically retries supported generation requests after transient backend or API failures.
+This branch contains only the extension source files.
 
-## Installation
-
-1. Open SillyTavern.
-2. Open `Extensions`.
-3. Click `Install Plugin`.
-4. Paste this repository URL:
-   `https://github.com/Resetra/Retrying`
-5. Confirm installation.
-6. Reload SillyTavern extensions if prompted.
-
-## Features
-
-- Automatic retry for supported generation requests
-- Configurable retry count
-- Configurable retry delay
-- Optional notifications
-- Settings panel in the SillyTavern extensions manager
-
-## Notes
-
-- This repository already contains the built plugin files required by SillyTavern.
-- End users do not need to run `npm install` or build anything manually.
+Release artifacts, package metadata, build scripts, tests, and other development files are intentionally excluded here.

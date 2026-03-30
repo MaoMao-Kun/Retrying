@@ -1,0 +1,96 @@
+#retrying_container.extension_container {
+    margin-top: 0.5rem;
+}
+
+.retrying_drawer {
+    border: 1px solid var(--smart-bg-border, rgba(127, 127, 127, 0.18));
+    border-radius: 0.75rem;
+    overflow: hidden;
+    background: var(--smart-bg, rgba(255, 255, 255, 0.03));
+}
+
+.retrying_drawer_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    padding: 0.8rem 0.95rem;
+    cursor: pointer;
+    user-select: none;
+    background: var(--smart-bg, rgba(255, 255, 255, 0.03));
+}
+
+.retrying_drawer_header b {
+    font-size: 0.98rem;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+}
+
+.retrying_drawer_icon,
+.retrying_drawer_header .inline-drawer-icon {
+    transition: transform 120ms ease;
+}
+
+.retrying_drawer.retrying_drawer_open .inline-drawer-icon {
+    transform: rotate(180deg);
+}
+
+.retrying_drawer_content {
+    padding: 0.9rem 0.95rem 1rem;
+}
+
+.retrying_panel {
+    display: grid;
+    gap: 0.65rem;
+}
+
+.retrying_row {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 0.75rem;
+    min-height: 2rem;
+}
+
+.retrying_label {
+    color: var(--smart-text-color, inherit);
+    font-size: 0.94rem;
+}
+
+.retrying_row input[type='number'] {
+    width: 7rem;
+    padding: 0.35rem 0.55rem;
+    border: 1px solid var(--SmartThemeBorderColor);
+    border-radius: 0.5rem;
+    background: color-mix(in srgb, var(--SmartThemeBlurTintColor) 55%, var(--black30a) 45%);
+    color: var(--SmartThemeEmColor);
+    text-align: right;
+    box-shadow: none;
+    appearance: textfield;
+    -moz-appearance: textfield;
+}
+
+.retrying_row input[type='number']::-webkit-outer-spin-button,
+.retrying_row input[type='number']::-webkit-inner-spin-button {
+    margin: 0;
+}
+
+.retrying_row input[type='number']:focus {
+    outline: none;
+    border-color: var(--SmartThemeQuoteColor);
+    box-shadow: 0 0 0 1px color-mix(in srgb, var(--SmartThemeQuoteColor) 45%, transparent);
+}
+
+.retrying_row input[type='checkbox'] {
+    width: 1rem;
+    height: 1rem;
+    margin: 0;
+}
+
+.retrying_status {
+    margin-top: 0.25rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--smart-bg-border, rgba(127, 127, 127, 0.12));
+    color: var(--gray70, rgba(127, 127, 127, 0.9));
+    font-size: 0.9rem;
+}
