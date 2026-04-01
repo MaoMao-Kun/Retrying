@@ -10,7 +10,7 @@ Retrying is a third-party extension for SillyTavern that automatically retries s
 4. Paste this repository URL:
    `https://github.com/Resetra/Retrying`
 5. Confirm installation.
-6. Reload SillyTavern extensions if prompted.
+6. Disable Streaming.
 
 ## Features
 
