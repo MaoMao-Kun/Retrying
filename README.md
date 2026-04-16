@@ -8,7 +8,7 @@ Retrying is a third-party extension for SillyTavern that automatically retries s
 2. Open `Extensions`.
 3. Click `Install Plugin`.
 4. Paste this repository URL:
-   `https://github.com/Resetra/Retrying`
+   `https://github.com/MaoMao-Kun/Retrying`
 5. Confirm installation.
 6. Disable Streaming.
 
